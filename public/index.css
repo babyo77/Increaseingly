@@ -1,0 +1,21 @@
+
+body{
+  opacity: 0;
+  transition: all .4s ease-in-out;
+  animation: fade 1s linear forwards;
+}
+
+.fade {
+  opacity: 0;
+  transition: opacity 1s ease-in-out;
+  animation: fade 1s linear forwards;
+}
+
+@keyframes fade {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
